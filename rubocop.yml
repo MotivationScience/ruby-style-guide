@@ -488,7 +488,7 @@ Metrics/AbcSize:
   Description: A calculated magnitude based on number of assignments, branches, and
     conditions.
   Enabled: true
-  Max: 15
+  Max: 20
 Metrics/BlockNesting:
   Description: Avoid excessive block nesting
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#three-is-the-number-thou-shalt-count
@@ -1060,4 +1060,7 @@ Lint/Void:
   Enabled: false
 Rails/Delegate:
   Description: Prefer delegate method for delegations.
+  Enabled: false
+Rails/Date:
+  Description: We don't implement Date.zone.today
   Enabled: false
