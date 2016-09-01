@@ -1061,6 +1061,3 @@ Lint/Void:
 Rails/Delegate:
   Description: Prefer delegate method for delegations.
   Enabled: false
-Rails/Date:
-  Description: We don't implement Date.zone.today
-  Enabled: false
